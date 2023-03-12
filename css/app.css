@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+
+.card {
+    background-color: #FEFFFE;
+    border: 1px solid #BACDD8;
+    border-radius: 12px;
+    padding: 16px 16px 28px;
+}
+
+.card__details {
+    padding: 33px 16px 16px 16px;
+}
+
+.card__title {
+    font-size: 21px;
+    font-weight: 700;
+    color: #28344A;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    color: #8a8d94;
+    line-height: 150%;
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 375px) {
+    .example {background: red;}
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 1440px) {
+    .example {background: orange;}
+  }
+
